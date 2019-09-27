@@ -2,12 +2,14 @@
 html {
   background-color: rgba(123, 223, 76, 0.3);
 }
-
+.navbar-nav .mr-auto {
+  background-color:teal;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
 
 /*index_section*/
-.nav {
-  background-color: #4b0082;
-}
+
 
 /*products_section*/
 #logo {
