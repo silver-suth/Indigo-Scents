@@ -9,14 +9,12 @@ html {
  }
 
 /*index_section*/
-
-
-/*products_section*/
-#logo {
-  text-align: left;
-  width: 160px;
-  height: 130px;
+#home_logo {
+  width: 200px;
+  height: 160px;
+    text-align: center;
 }
+/*products_section*/
 
 /*sign-in-or-register*/
 
