@@ -9,10 +9,13 @@ html {
  }
 
 /*index_section*/
-#home_logo {
-  width: 200px;
-  height: 160px;
-    text-align: center;
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+img {
+  height: 25px;
+  width: 25px;
 }
 /*products_section*/
 
