@@ -11,11 +11,41 @@ html {
 /*index_section*/
 .flex-container {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row;
 }
+
+.flex-item {
+  padding: 10px;
+}
+
+#products {
+  padding-top: 51px;
+}
+
+#store-links {
+  padding-top: 60px;
+  padding-left: 20px;
+}
+
+#logo {
+  padding-left: 250px;
+}
+
 img {
+  height: 150px;
+  width: auto;
+}
+#shopping {
   height: 25px;
-  width: 25px;
+  width: auto;
+}
+#register {
+  height: 25px;
+  width: auto;
+}
+#search {
+  height: 25px;
+  width: auto;
 }
 /*products_section*/
 
