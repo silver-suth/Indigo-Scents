@@ -2,16 +2,12 @@
 html {
   background-color: rgba(123, 223, 76, 0.3);
 }
-.navbar-nav .mr-auto {
-  background-color:teal;
-  background-image: none;
-  background-repeat: no-repeat;
- }
 
 /*index_section*/
 .flex-container {
   display: flex;
   flex-direction: row;
+  background-color: rgba;
 }
 
 .flex-item {
@@ -35,17 +31,14 @@ img {
   height: 150px;
   width: auto;
 }
-#shopping {
-  height: 25px;
-  width: auto;
+.fa-shopping-cart {
+  padding-left: 350px;
+
 }
-#register {
-  height: 25px;
-  width: auto;
-}
-#search {
-  height: 25px;
-  width: auto;
+.fas {
+  padding-right: 50px;
+  font-size: 35px;
+  padding-top: 57px;
 }
 /*products_section*/
 
