@@ -6,17 +6,41 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header>
-      <a href="./index.html"><img id="logo" src="images/logo.png"></a>
-      <h1 class="title">Sign-in or Register</h1>
-    </header>
-    <ul>
-      <li> <a href="index.html">Homepage</a> </li>
-      <li> <a href="products.html">Products</a> </li>
-      <li> <a href="sign-in-or-register.html">Sign In or Register</a> </li>
-      <li> <a href="cart.html">Cart</a> </li>
-      <li> <a href="contact-us.html">Contact Us</a> </li>
-      <li> <a href="store-links.html">Store Links</a> </li>
-    </ul>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <nav class="menu">
+            <ol>
+              <li class="menu-item"><a href="products.html">Products</a></li>
+              <li class="menu-item"><a href="#0">Store Links</a>
+                <ol class="sub-menu">
+                  <li class="menu-item"><a href="#0">Link</a></li>
+                  <li class="menu-item"><a href="#0">Link2</a></li>
+                  <li class="menu-item"><a href="#0">Link3</a></li>
+                </ol>
+              </li>
+            </ol>
+          </nav>
+          <a class="me" href="https://codepen.io/uzcho_/pens/popular/?grid_type=list" target="_blank" style="color:#000"></a>
+        </div>
+        <div class="col-md-4">
+          <a href="index.html"><img id="logo" alt="Bootstrap Image Preview" src="img/logo_home.png" /></a>
+        </div>
+        <div class="col-md-4">
+          <div class="icons">
+            <div class="icon">
+              <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+            <div class="icon">
+              <a href="sign-in-or-register.html"><i class="fas fa-sign-in-alt"></i></a>
+            </div>
+            <div class="icon">
+              <i class="fas fa-search"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-1">
+          </div>
   </body>
 </html>
