@@ -1,49 +1,1805 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Indigo Scents</title>
-    <meta name="description" content="Aroma Therapy">
-    <meta name="keyword" content="candles, scents, therepy, aroma, indigo, aroma therapy">
-    <meta name="author" content="Zach and Adam and maybe bob">
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Indigo Scents</title>
+  <meta name="description" content="Aroma Therapy">
+  <meta name="keyword" content="candles, scents, therepy, aroma, indigo, aroma therapy">
+  <meta name="author" content="Zach and Adam and William">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/982cee27ec.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- beginning of NAV-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+        <nav class="menu">
+          <ol>
+            <li class="menu-item"><a href="products.html">Products</a></li>
+            <li class="menu-item"><a href="connect-with-us.html">Connect With Us</a></li>
+            <li class="menu-item"><a href="#0">Store Links</a>
+              <ol class="sub-menu">
+                <li class="menu-item"><a href="#0">Link</a></li>
+                <li class="menu-item"><a href="#0">Link2</a></li>
+                <li class="menu-item"><a href="#0">Link3</a></li>
+              </ol>
+            </li>
+          </ol>
+        </nav>
+        <a class="me" href="https://codepen.io/uzcho_/pens/popular/?grid_type=list" target="_blank" style="color:#000"></a>
+      </div>
+      <!-- beginning of LOGO-->
+      <div class="col-md-4">
+        <a href="index.html"><img id="logo" alt="Bootstrap Image Preview" src="img/logo_home.png" /></a>
+      </div>
+      <!-- end of LOGO -->
+      <!-- beginning of ICONS-->
+      <div class="col-md-4">
+        <div class="icons">
+          <div class="icon">
+            <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+          </div>
+          <div class="icon">
+            <a href="sign-in-or-register.html"><i class="fas fa-sign-in-alt"></i></a>
+          </div>
+          <div class="icon">
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end of ICONS-->
+  <!-- end of NAV -->
+  <!-- Row One -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+        <!-- dropdown Soy Candles-->
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+            <img src="img/candle-product.png" id="productimg">
+            <h4>Soy Candles</h4>
+            <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <!--dropright Amber Noir-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Amber Noir <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Baja Cactus Blossom-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Baja Cactus Blossom <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Black Birch-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Black Birch <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Black Cedarwood-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Black Cedarwood <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Blackberry Sage-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Blackberry Sage <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Blue Volcano-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Blue Volcano <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Butt Naked-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Buttnaked <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Cardamom & Tobacco-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Cardamom & Tobacco <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Coco Cabana-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Coco Cabana <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Cucumber Green Tea-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Cucumber Green Tea <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Eucalyptus Lavender-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Eucalyptus Lavender <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Eucalyptus Mint & Rain-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Eucalyptus Mint & Rain <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Good Vibes-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Good Vibes <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Honey Apple-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Honey Apple <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Lavender Vanilla-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Lavender Vanilla <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Mahogany Teakwood-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Mahogany Teakwood <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Ocean Driftwood-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Ocean Driftwood <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Pineapple Coast-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Pineapple Coast <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Redwood & Cedar-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Redwood & Cedar <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Sandalwood Vanilla-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Sandalwood Vanilla <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Sensual Amber-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Sensual Amber <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Smoked Vanilla-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Smoked Vanilla <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Sweet Tobacco-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Sweet Tobacco <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Teakwood & Tobacco-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Teakwood & Tobacco <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Tobacco & Bay Leaf-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Tobacco & Bay Leaf <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Vanilla Patchouli-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Vanilla Patchouli <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright White Tea & Ginger-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">White Tea & Ginger <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright-->
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <!-- dropdown Aroma Melts-->
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+            <img src="img/melts-product.png" id="productimg">
+            <h4>Aroma Melts</h4>
+            <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <!--dropright Amber Noir-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Amber Noir <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Apple Blossom-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Apple Blossom <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Baja Cactus Blossom-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Baja Cactus Blossom <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Blackberry Sage-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Blackberry Sage <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Black Birch-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Black Birch <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Black Cedarwood-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Black Cedarwood <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Butt Naked-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Buttnaked <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Blue Volcano-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Blue Volcano <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Cardamom & Tobacco-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Cardamom & Tobacco <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Coco Cabana-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Coco Cabana <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Cucumber Green Tea-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Cucumber Green Tea <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Eucalyptus Lavender-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Eucalyptus Lavender<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Eucalyptus Mint & Rain-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Eucalyptus Mint & Rain <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Good Vibes-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Good Vibes <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Honey Apple-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Honey Apple <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Lavender Vanilla-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Lavender Vanilla <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Mahogany Teakwood-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Mahogany Teakwood <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Pineapple Coast-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Pineapple Coast <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Sandalwood Vanilla-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Sandalwood Vanilla <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Sensual Amber-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Sensual Amber <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Smoked Vanilla-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Smoked Vanilla <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Sweet Tobacco-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Sweet Tobacco <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Teakwood & Tobacco-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Teakwood & Tobacco <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Vanilla Patchouli-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Vanilla Patchouli <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright White Tea & Ginger-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">White Tea & Ginger <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <!-- dropdown Aroma Oils-->
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+            <img src="img/oil-product.png" id="productimg">
+            <h4>Aroma Oils</h4>
+            <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <!--dropright Baja Cactus Blossom-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Baja Cactus Blossom <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Cotton Amber-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Cotton Amber <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Honey Apple-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Honey Apple <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Indigo Rain-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Indigo Rain <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Mahogany Teakwood-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Mahogany Teakwood <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Monkey Farts-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Monkey Farts <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Sandalwood Vanilla-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Sandalwood Vanilla <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Pineapple Sage-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Pineapple Sage <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Sweet Cotton-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Sweet Cotton <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Sweet Orange Chili Pepper-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Sweet Orange Chili Pepper <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright White Gardenia-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">White Gardenia <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Row Two -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+        <!-- dropdown Soap Bars-->
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+            <img src="img/soap-product.png" id="productimg">
+            <h4>Soap Bars</h4>
+            <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <!--dropright Almond Coconut-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Almond Coconut <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Cherry Almond-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Cherry Almond <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Coastal Waters-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Coastal Waters <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Eucalyptus-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Eucalyptus <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Lavender Mint-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Lavender Mint <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Lavender Patchouli-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Lavender Patchouli <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Mardi Gras-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Mardi Gras <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Moroccan Vannila-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Moroccan Vanilla <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Oatmeal Milk and Honey-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Oatmeal Milk and Honey <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Patchouli-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Patchouli <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Spearmint Sweet Basil-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Spearmint Sweet Basil <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Sweet Love-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Sweet Love <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Tea Tree Mint-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Tea Tree Mint <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Skin Relief Bar-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Skin Relief Bar <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Nautical Mile-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Nautical Mile <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <!-- dropdown Bath Bombs-->
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+            <img src="img/bombs-product.png" id="productimg">
+            <h4>Bath Bombs</h4>
+            <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <!--dropright Almond Coconut-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Almond Coconut <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Cherry Almond-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Cherry Almond <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Citrus Sensation-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Citrus Sensation <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Enchanted Seas-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Enchanted Seas <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Eucalyptus-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Eucalyptus <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Gypsy-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Gypsy <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Lavender Mint-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Lavender Mint <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Mardi Gras-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Mardi Gras <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Melon Mist-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Melon Mist <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Moroccan Vannila-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Moroccan Vanilla <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Oatmeal Milk and Honey-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Oatmeal Milk and Honey <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Pear Nectar-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Pear Nectar <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Secret Garden-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Secret Garden <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Soothing Aloe-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Soothing Aloe <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Spearmint Rosemary-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Spearmint Rosemary <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Sweet Love-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Sweet Love <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright White Teaberry-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">White Teaberry <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <!-- dropdown Body Butters-->
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+            <img src="img/butter-product.png" id="productimg">
+            <h4>Body Butters</h4>
+            <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <!--dropright Body Butter-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Body Butter <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Lavender Mint-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Lavender Mint <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Lemon Coconut-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Lemon Coconut <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Mardi Gras-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Mardi Gras <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Moroccan Vanilla-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Moroccan Vanilla <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Oatmeal Milk and Honey-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Oatmeal Milk and Honey <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Pear Nectar-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Pear Nectar <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Secret Garden-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Secret Garden <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Sweet Love-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Sweet Love <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Spearmint Sweet Basil-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Spearmint Sweet Basil <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!--dropright Unscented-->
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="#">Unscented <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                <li class="dropdown-submenu">
+                  <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level dropdown</a></li>
+                    <li><a href="#">3rd level dropdown</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </div>
+
+  <!-- end of PRODUCTS DROPDOWN-->
+  <hr>
+  <footer>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-4">
-          <nav class="menu">
-            <ol>
-              <li class="menu-item"><a href="products.html">Products</a></li>
-              <li class="menu-item"><a href="#0">Store Links</a>
-                <ol class="sub-menu">
-                  <li class="menu-item"><a href="#0">Link</a></li>
-                  <li class="menu-item"><a href="#0">Link2</a></li>
-                  <li class="menu-item"><a href="#0">Link3</a></li>
-                </ol>
-              </li>
-            </ol>
-          </nav>
-          <a class="me" href="https://codepen.io/uzcho_/pens/popular/?grid_type=list" target="_blank" style="color:#000"></a>
+        <div class="col-md-2">
+
         </div>
-        <div class="col-md-4">
-          <a href="index.html"><img id="logo" alt="Bootstrap Image Preview" src="img/logo_home.png" /></a>
-        </div>
-        <div class="col-md-4">
-          <div class="icons">
-            <div class="icon">
-              <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
-            </div>
-            <div class="icon">
-              <a href="sign-in-or-register.html"><i class="fas fa-sign-in-alt"></i></a>
-            </div>
-            <div class="icon">
-              <i class="fas fa-search"></i>
-            </div>
+        <div class="col-md-2">
+          <div id="far-left-footer">
+            <ul>
+              <h5>Navigation</h5>
+              <a class="lists" href="products.html">
+                <li>Products</li>
+              </a>
+              <a class="lists" href="contact-us.html">
+                <li>Contact Us</li>
+              </a>
+              <li>Store Links</li>
+            </ul>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-1">
+        <div class="col-md-2">
+          <div id="left-footer">
+            <ul>
+              <h5>Products</h5>
+              <li>Soy Candles</li>
+              <li>Aroma Melts</li>
+              <li>Aroma Oils</li>
+              <li>Soap Bars</li>
+              <li>Bath Bombs</li>
+              <li>Body Butter</li>
+            </ul>
           </div>
-  </body>
+        </div>
+        <div class="col-md-2">
+          <div id="right-footer">
+            <ul>
+              <h5>Info</h5>
+              <li>202 W Lafayette Street</li>
+              <li>Unit- A</li>
+              <li>Jackson, TN 38301</li>
+              <li>United States of America</li>
+              <li><b>Call us at 731-277-7493</b></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div id="far-right-footer">
+            <ul>
+              <h5>Social Media</h5>
+              <div id="social-links">
+                <li><i class="fab fa-instagram"></i></li>
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-pinterest"></i></li>
+              </div>
+            </ul>
+          </div>
+          <div class="col-md-2">
+
+          </div>
+        </div>
+      </div>
+  </footer>
+  <script>
+    $(document).ready(function() {
+      $('.dropdown-submenu a.test').on("click", function(e) {
+        $(this).next('ul').toggle();
+        e.stopPropagation();
+        e.preventDefault();
+      });
+    });
+  </script>
+</body>
+
 </html>
