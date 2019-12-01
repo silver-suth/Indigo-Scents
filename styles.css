@@ -25,6 +25,9 @@ body {
   flex-direction: row;
 
 }
+.infopage {
+  text-align: center;
+}
 
 /* unvisited link */
 a:link {
