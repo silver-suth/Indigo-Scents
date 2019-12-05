@@ -1,12 +1,10 @@
 # Indigo-Scents
 We have everything formatted and thoroughly commented.
-Zach will be completing the Connect With Us page over the weekend and through Thanksgiving break
-William will be completing the Cart page over the weekend and through Thanksgiving break
-Adam will be completing the Sign in or Register page over the weekend and through Thanksgiving break
-after fall break we will all pitch in to create the Store Links page
 
+Zach will be completing the Connect With Us page, the Bath Bombs and Body Butters part of the products page, Terms of Use and Privacy Policy
 
-At some point you will need to delete the indextest pages if you are done with them.
-Looks like you still have a lot of info to put into the products page. I would concentrate on that.
-Also need to concentrate on the links in the dropdown that only say "link"
-Your code is REALLY clean and easy to read with good comments.
+William will be completing the Cart page, reformatting the Aroma Oils and Soap Bars part of the products page, and Candle Safety and Brand Ambassadors
+
+Adam will be completing the Sign in or Register page, reformat the Soy Candle and Aroma melts part of the products page, and create the Wholesale and Policies and Procedures pages
+
+After fall break we will all pitch in to create the Store Links page
