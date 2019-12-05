@@ -238,7 +238,10 @@ ol {
 footer {
   background-color: none;
 }
-
+/* Footer */
+#linebreak {
+  border-color:black;
+}
 /* Far Left Footer */
 #far-left-footer {
   text-align: center;
