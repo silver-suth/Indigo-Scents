@@ -390,7 +390,7 @@ ul {
     background:rgba(0,0,0,0.2);
 }
 .nav li ul {
-    position:absolute;
+    position: absolute;
     left:0;
     top:36px;
     z-index:1;
