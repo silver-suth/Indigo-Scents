@@ -465,6 +465,7 @@ ul {
   max-height: 30%;
   overflow: auto;
 }
+
 /*sign-in-or-register*/
 
   /* Start of signin */
@@ -750,5 +751,14 @@ input[type=number]
 @media screen and (max-width: 300px) {
   .cancelbtn, .signupbtn {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
   }
 }
