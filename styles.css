@@ -465,6 +465,16 @@ ul {
   max-height: 30%;
   overflow: auto;
 }
+.btn-secondary:hover {
+  background-color: rgba(98, 143, 35, 1);
+}
+.proddesc {
+  text-align: center;
+}
+.prodtitle {
+  text-align: center;
+}
+
 
 /*sign-in-or-register*/
 
