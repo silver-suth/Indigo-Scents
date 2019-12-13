@@ -30,6 +30,10 @@ body {
 a:link {
   color: grey;
 }
+/*picture style for products page*/
+#productimg {
+  border-radius: 15px;
+}
 
 /* visited link */
 a:visited {
