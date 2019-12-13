@@ -641,7 +641,12 @@ ul {
   /* end of Register */
 
 /*store-links*/
-
+.ltitle {
+  text-align: center;
+}
+.lbody {
+  text-align: center;
+}
 /*connect with us*/
 .infopage {
   text-align: center;
